@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px
+}
+
 ul {
     list-style-type: none;
+}
+
+button {
+    background-color: black;
+    color: red;
 }
