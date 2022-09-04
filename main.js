@@ -27,6 +27,7 @@ function myFunc(id) {
 }
 
 function getFilmList(url) {
+    bioInfo.replaceChildren()
     list.replaceChildren()
     fetch(url)
         .then((response) => response.json())
